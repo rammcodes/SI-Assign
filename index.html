@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sportz Interactive Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="main-header">
+        <div class="main-header__left-cont">
+          <div class="main-header__back-icon-cont">
+            <img
+              src="./assets/back-icon.png"
+              alt="Back Button Icon"
+              class="main-header__back-icon"
+            />
+          </div>
+          <h1 class="heading-primary">My Team</h1>
+        </div>
+        <div class="main-header__right-cont">
+          <p class="text-md main-header__text-md">1h 26m left</p>
+          <div class="main-header__question-icon-cont">
+            <img
+              src="./assets/question-in-circle-icon.png"
+              alt="Question Mark Icon"
+              class="main-header__question-icon"
+            />
+          </div>
+        </div>
+      </header>
+      <section class="country-data">
+        <div class="country-data__country">
+          <div class="country-data__country-left-cont">
+            <div class="country-data__country-img-cont">
+              <img
+                src="./assets/ind-flag.png"
+                alt="India Flag"
+                class="country-data__country-img"
+              />
+            </div>
+            <p class="text-md country-data__country-left-cont-text-md">India</p>
+          </div>
+          <div class="country-data__country-right-cont">
+            <p
+              class="text-md country-data__country-right-cont-text-md country-data__country-right-cont-text-md--active"
+            >
+              4
+            </p>
+          </div>
+        </div>
+        <div class="country-data__country">
+          <div class="country-data__country-left-cont">
+            <div class="country-data__country-img-cont">
+              <img
+                src="./assets/nz-flag.png"
+                alt="India Flag"
+                class="country-data__country-img"
+              />
+            </div>
+            <p class="text-md country-data__country-left-cont-text-md">
+              New Zealand
+            </p>
+          </div>
+          <div class="country-data__country-right-cont">
+            <p class="text-md country-data__country-right-cont-text-md">3</p>
+          </div>
+        </div>
+      </section>
+      <section class="main-stats">
+        <div class="main-stats__left-cont">
+          <div class="main-stats__left-cont-item">
+            <div class="main-stats__left-cont-item-text">
+              <span class="main-stats__left-cont-item-text-main"> 45 </span>
+              <span class="main-stats__left-cont-item-text-sm">
+                Credit Left
+              </span>
+            </div>
+            <div class="main-stats__stat-bar">
+              <div class="main-stats__stat-bar-inner"></div>
+            </div>
+          </div>
+          <div class="main-stats__left-cont-item">
+            <div class="main-stats__left-cont-item-text">
+              <span class="main-stats__left-cont-item-text-main"> 7/11 </span>
+              <span class="main-stats__left-cont-item-text-sm"> Players </span>
+            </div>
+            <div class="main-stats__stat-bar">
+              <div class="main-stats__stat-bar-inner"></div>
+            </div>
+          </div>
+        </div>
+        <div class="main-stats__right-cont">
+          <div
+            class="main-stats__right-cont-btn main-stats__right-cont-btn--list"
+          >
+            <div class="main-stats__right-cont-btn-icon-cont">
+              <img
+                src="assets/list-icon.png"
+                alt="List Icon"
+                class="main-stats__right-cont-btn-icon"
+              />
+            </div>
+            <p class="text-md">List</p>
+          </div>
+          <div class="main-stats__right-cont-btn main-stats__right-cont-btn--pitch">
+            <div class="main-stats__right-cont-btn-icon-cont">
+              <img
+                src="assets/pitch-icon.png"
+                alt="Pitch Icon"
+                class="main-stats__right-cont-btn-icon"
+              />
+            </div>
+            <p class="text-md">Pitch</p>
+          </div>
+        </div>
+      </section>
+      <section class="players-table-sec">
+        <div class="players-table-sec__main">
+          <div class="players-table-sec__upper">
+            <div
+              class="players-table-sec__upper-col players-table-sec__upper-col1 text-xsm"
+            >
+              Players
+            </div>
+            <div
+              class="players-table-sec__upper-col players-table-sec__upper-col2 text-xsm"
+            >
+              Points
+            </div>
+            <div
+              class="players-table-sec__upper-col players-table-sec__upper-col3 text-xsm"
+            >
+              Credits
+            </div>
+            <div
+              class="players-table-sec__upper-col players-table-sec__upper-col4 text-xsm"
+            ></div>
+          </div>
+          <div class="players-table-sec__data">
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col1"
+            >
+              <div class="players-table-sec__data-col1-img-cont">
+                <img
+                  src="./assets/ind-jersey.png"
+                  alt="Indian Jersey"
+                  class="players-table-sec__data-col1-img"
+                />
+              </div>
+              <div class="players-table-sec__data-col1-plr">
+                <h2
+                  class="players-table-sec__data-col1-plr-name heading-secondary"
+                >
+                  V Kohli
+                </h2>
+                <div class="players-table-sec__data-col1-plr-country text-md">
+                  IND
+                </div>
+              </div>
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col2"
+            >
+              325.5
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col3"
+            >
+              11.5
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col4"
+            >
+              <div class="players-table-sec__data-col4-img-cont">
+                <img
+                  src="./assets/plus-icon.png"
+                  alt="Plus Icon"
+                  class="players-table-sec__data-col4-img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="players-table-sec__data players-table-sec__data--dark">
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col1"
+            >
+              <div class="players-table-sec__data-col1-img-cont">
+                <img
+                  src="./assets/ind-jersey.png"
+                  alt="Indian Jersey"
+                  class="players-table-sec__data-col1-img"
+                />
+              </div>
+              <div class="players-table-sec__data-col1-plr">
+                <h2
+                  class="players-table-sec__data-col1-plr-name heading-secondary"
+                >
+                  R Sharma
+                </h2>
+                <div class="players-table-sec__data-col1-plr-country text-md">
+                  IND
+                </div>
+              </div>
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col2"
+            >
+              256.5
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col3"
+            >
+              10.5
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col4"
+            ></div>
+          </div>
+          <div class="players-table-sec__data">
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col1"
+            >
+              <div class="players-table-sec__data-col1-img-cont">
+                <img
+                  src="./assets/nz-jersey.png"
+                  alt="New Zealand Jersey"
+                  class="players-table-sec__data-col1-img"
+                />
+              </div>
+              <div class="players-table-sec__data-col1-plr">
+                <h2
+                  class="players-table-sec__data-col1-plr-name heading-secondary"
+                >
+                  J Neesham
+                </h2>
+                <div class="players-table-sec__data-col1-plr-country text-md">
+                  NZ
+                </div>
+              </div>
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col2"
+            >
+              186.5
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col3"
+            >
+              10.5
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col4"
+            >
+              <div class="players-table-sec__data-col4-img-cont">
+                <img
+                  src="./assets/plus-icon.png"
+                  alt="Plus Icon"
+                  class="players-table-sec__data-col4-img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="players-table-sec__data">
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col1"
+            >
+              <div class="players-table-sec__data-col1-img-cont">
+                <img
+                  src="./assets/nz-jersey.png"
+                  alt="New Zealand Jersey"
+                  class="players-table-sec__data-col1-img"
+                />
+              </div>
+              <div class="players-table-sec__data-col1-plr">
+                <h2
+                  class="players-table-sec__data-col1-plr-name heading-secondary"
+                >
+                  K Williamson
+                </h2>
+                <div class="players-table-sec__data-col1-plr-country text-md">
+                  NZ
+                </div>
+              </div>
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col2"
+            >
+              386.5
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col3"
+            >
+              10
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col4"
+            >
+              <div class="players-table-sec__data-col4-img-cont">
+                <img
+                  src="./assets/plus-icon.png"
+                  alt="Plus Icon"
+                  class="players-table-sec__data-col4-img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="players-table-sec__data players-table-sec__data--dark">
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col1"
+            >
+              <div class="players-table-sec__data-col1-img-cont">
+                <img
+                  src="./assets/ind-jersey.png"
+                  alt="Indian Jersey"
+                  class="players-table-sec__data-col1-img"
+                />
+              </div>
+              <div class="players-table-sec__data-col1-plr">
+                <h2
+                  class="players-table-sec__data-col1-plr-name heading-secondary"
+                >
+                  M Agarwal
+                </h2>
+                <div class="players-table-sec__data-col1-plr-country text-md">
+                  IND
+                </div>
+              </div>
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col2"
+            >
+              226.5
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col3"
+            >
+              9
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col4"
+            ></div>
+          </div>
+          <div class="players-table-sec__data">
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col1"
+            >
+              <div class="players-table-sec__data-col1-img-cont">
+                <img
+                  src="./assets/nz-jersey.png"
+                  alt="New Zealand Jersey"
+                  class="players-table-sec__data-col1-img"
+                />
+              </div>
+              <div class="players-table-sec__data-col1-plr">
+                <h2
+                  class="players-table-sec__data-col1-plr-name heading-secondary"
+                >
+                  M Guptill
+                </h2>
+                <div class="players-table-sec__data-col1-plr-country text-md">
+                  NZ
+                </div>
+              </div>
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col2"
+            >
+              158
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col3"
+            >
+              8.5
+            </div>
+            <div
+              class="players-table-sec__data-col players-table-sec__data-col4"
+            >
+              <div class="players-table-sec__data-col4-img-cont">
+                <img
+                  src="./assets/plus-icon.png"
+                  alt="Plus Icon"
+                  class="players-table-sec__data-col4-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pitch">
+        <div class="pitch__cont">
+          <div class="pitch__design">
+            <div class="pitch__line"></div>
+            <div class="pitch__main">
+              <img
+                src="./assets/pitch-main.png"
+                alt="pitch"
+                class="pitch__main-img"
+              />
+            </div>
+            <div class="pitch__stripes">
+              <div class="pitch__stripe">.</div>
+              <div class="pitch__stripe">.</div>
+              <div class="pitch__stripe">.</div>
+              <div class="pitch__stripe">.</div>
+              <div class="pitch__stripe">.</div>
+            </div>
+          </div>
+          <div class="pitch__row">
+            <div class="pitch__row-title">Wicket Keepers</div>
+            <div class="pitch__row-players-list">
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/ind-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name">MS Dhoni</div>
+                <div class="pitch__player-price">11 Cr</div>
+              </div>
+            </div>
+          </div>
+          <div class="pitch__row">
+            <div class="pitch__row-title">Batsmen</div>
+            <div
+              class="pitch__row-players-list pitch__row-players-list--spaced"
+            >
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/ind-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name">R Sharma</div>
+                <div class="pitch__player-price">10.5 Cr</div>
+              </div>
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/nz-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name pitch__player-name--dark">
+                  R Taylor
+                </div>
+                <div class="pitch__player-price">9 Cr</div>
+              </div>
+
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/nz-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name pitch__player-name--dark">
+                  K Williamson
+                </div>
+                <div class="pitch__player-price">10 Cr</div>
+              </div>
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/ind-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name">M Agarwal</div>
+                <div class="pitch__player-price">8.5 Cr</div>
+              </div>
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/ind-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name">M Agarwal</div>
+                <div class="pitch__player-price">8.5 Cr</div>
+              </div>
+            </div>
+          </div>
+          <div class="pitch__row">
+            <div class="pitch__row-title">Batsmen</div>
+            <div class="pitch__row-players-list">
+              <div class="pitch__player pitch__player--spaced">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/nz-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name pitch__player-name--dark">
+                  J Neesham
+                </div>
+                <div class="pitch__player-price">7.5 Cr</div>
+              </div>
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/ind-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name">R Jadeja</div>
+                <div class="pitch__player-price">7 Cr</div>
+              </div>
+            </div>
+          </div>
+          <div class="pitch__row">
+            <div class="pitch__row-title">Batsmen</div>
+            <div
+              class="pitch__row-players-list pitch__row-players-list--spaced-around"
+            >
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/ind-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name">R Sharma</div>
+                <div class="pitch__player-price">10.5 Cr</div>
+              </div>
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/nz-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name pitch__player-name--dark">
+                  R Taylor
+                </div>
+                <div class="pitch__player-price">9 Cr</div>
+              </div>
+
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/nz-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name pitch__player-name--dark">
+                  K Williamson
+                </div>
+                <div class="pitch__player-price">10 Cr</div>
+              </div>
+              <div class="pitch__player">
+                <div class="pitch__player-img-cont">
+                  <img
+                    src="./assets/ind-jersey.png"
+                    alt="jersey"
+                    class="pitch__player-img"
+                  />
+                </div>
+                <div class="pitch__player-name">M Agarwal</div>
+                <div class="pitch__player-price">8.5 Cr</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <div class="bottom-bar">
+        <div class="bottom-bar__filter-btn">
+          <div class="bottom-bar__filter-btn-notif">3</div>
+          <div class="bottom-bar__filter-btn-icon-cont">
+            <img
+              src="./assets/filter-icon.png"
+              alt="filter icon"
+              class="bottom-bar__filter-btn-icon"
+            />
+          </div>
+        </div>
+        <div class="bottom-bar__btn">Continue</div>
+      </div> 
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
